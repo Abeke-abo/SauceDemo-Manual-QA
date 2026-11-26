@@ -105,4 +105,4 @@ No claim of complete application coverage is made.
 
 ## Author
 
-Junior Manual QA Engineer Portfolio Project
+Kundyzbaev Abzal Junior Manual QA Engineer
