@@ -1,0 +1,270 @@
+# Checkout Module — Test Cases
+
+## 1. Module Information
+
+**Application:** SauceDemo
+
+**Module:** Checkout
+
+**Testing Type:** Functional Testing / Negative Testing
+
+**Priority:** High
+
+## 2. Test Cases
+
+### TC-CHECKOUT-001: Verify navigation to Checkout Information page
+
+**Priority:** High
+
+**Preconditions:**
+- User is logged in.
+- At least one product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Click Checkout.
+
+**Expected Result:**
+The Checkout Information page is displayed.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-002: Complete checkout with valid information
+
+**Priority:** Critical
+
+**Preconditions:**
+- User is logged in.
+- At least one product is added to the cart.
+
+**Test Data:**
+- First Name: John
+- Last Name: Smith
+- Postal Code: 10001
+
+**Steps:**
+1. Open the shopping cart.
+2. Click Checkout.
+3. Enter First Name.
+4. Enter Last Name.
+5. Enter Postal Code.
+6. Click Continue.
+
+**Expected Result:**
+The application redirects the user to the Checkout Overview page.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-003: Continue checkout with empty First Name
+
+**Priority:** High
+
+**Steps:**
+1. Open the Checkout Information page.
+2. Leave First Name empty.
+3. Enter Last Name.
+4. Enter Postal Code.
+5. Click Continue.
+
+**Expected Result:**
+The application displays a validation message indicating that First Name is required.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-004: Continue checkout with empty Last Name
+
+**Priority:** High
+
+**Steps:**
+1. Open the Checkout Information page.
+2. Enter First Name.
+3. Leave Last Name empty.
+4. Enter Postal Code.
+5. Click Continue.
+
+**Expected Result:**
+The application displays a validation message indicating that Last Name is required.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-005: Continue checkout with empty Postal Code
+
+**Priority:** High
+
+**Steps:**
+1. Open the Checkout Information page.
+2. Enter First Name.
+3. Enter Last Name.
+4. Leave Postal Code empty.
+5. Click Continue.
+
+**Expected Result:**
+The application displays a validation message indicating that Postal Code is required.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-006: Continue checkout with all fields empty
+
+**Priority:** High
+
+**Steps:**
+1. Open the Checkout Information page.
+2. Leave all fields empty.
+3. Click Continue.
+
+**Expected Result:**
+The application displays a validation message indicating that First Name is required.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-007: Verify First Name accepts alphabetic characters
+
+**Priority:** Medium
+
+**Steps:**
+1. Enter an alphabetic First Name.
+2. Complete the remaining fields.
+3. Click Continue.
+
+**Expected Result:**
+The application accepts the entered information.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-008: Verify Last Name accepts alphabetic characters
+
+**Priority:** Medium
+
+**Steps:**
+1. Enter an alphabetic Last Name.
+2. Complete the remaining fields.
+3. Click Continue.
+
+**Expected Result:**
+The application accepts the entered information.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-009: Verify Postal Code accepts numeric values
+
+**Priority:** Medium
+
+**Steps:**
+1. Enter a valid First Name.
+2. Enter a valid Last Name.
+3. Enter a numeric Postal Code.
+4. Click Continue.
+
+**Expected Result:**
+The application accepts the entered Postal Code.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-010: Verify checkout overview information
+
+**Priority:** High
+
+**Preconditions:**
+- User has completed the Checkout Information step.
+
+**Steps:**
+1. Open the Checkout Overview page.
+2. Review the order information.
+
+**Expected Result:**
+The order information is displayed correctly.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-011: Verify item total calculation
+
+**Priority:** High
+
+**Preconditions:**
+- At least one product is added to the cart.
+- Checkout Overview page is opened.
+
+**Steps:**
+1. Review the prices of all products.
+2. Calculate the sum of product prices.
+3. Compare the result with Item Total.
+
+**Expected Result:**
+Item Total equals the sum of all product prices.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-012: Verify tax calculation
+
+**Priority:** High
+
+**Preconditions:**
+- Checkout Overview page is opened.
+
+**Steps:**
+1. Review Item Total.
+2. Review the displayed Tax.
+3. Check the calculation.
+
+**Expected Result:**
+Tax is calculated according to the application's pricing rules.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-013: Verify order total calculation
+
+**Priority:** High
+
+**Preconditions:**
+- Checkout Overview page is opened.
+
+**Steps:**
+1. Review Item Total.
+2. Review Tax.
+3. Review Total.
+
+**Expected Result:**
+Total equals Item Total plus Tax.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CHECKOUT-014: Complete the order
+
+**Priority:** Critical
+
+**Preconditions:**
+- User is on the Checkout Overview page.
+- Order information is correct.
+
+**Steps:**
+1. Click Finish.
+2. Observe the confirmation page.
+
+**Expected Result:**
+The order is completed successfully and the
