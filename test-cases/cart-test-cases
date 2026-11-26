@@ -1,0 +1,284 @@
+# Shopping Cart Module — Test Cases
+
+## 1. Module Information
+
+**Application:** SauceDemo
+
+**Module:** Shopping Cart
+
+**Testing Type:** Functional Testing / UI Testing
+
+**Priority:** High
+
+## 2. Test Cases
+
+### TC-CART-001: Verify shopping cart page navigation
+
+**Priority:** High
+
+**Steps:**
+1. Log in using valid credentials.
+2. Click the shopping cart icon.
+
+**Expected Result:**
+The Shopping Cart page opens successfully.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-002: Add one product to the cart
+
+**Priority:** High
+
+**Steps:**
+1. Open the Products page.
+2. Click Add to cart for any product.
+3. Open the shopping cart.
+
+**Expected Result:**
+The selected product is displayed in the shopping cart.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-003: Add multiple products to the cart
+
+**Priority:** High
+
+**Steps:**
+1. Open the Products page.
+2. Add two or more products to the cart.
+3. Open the shopping cart.
+
+**Expected Result:**
+All selected products are displayed in the shopping cart.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-004: Remove a product from the cart
+
+**Priority:** High
+
+**Preconditions:**
+- At least one product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Click Remove next to a product.
+
+**Expected Result:**
+The selected product is removed from the shopping cart.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-005: Verify cart badge count
+
+**Priority:** Medium
+
+**Steps:**
+1. Open the Products page.
+2. Add one product to the cart.
+3. Observe the shopping cart badge.
+4. Add another product.
+5. Observe the badge again.
+
+**Expected Result:**
+The cart badge displays the correct number of added products.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-006: Verify cart badge after removing a product
+
+**Priority:** Medium
+
+**Preconditions:**
+- Two products are added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Remove one product.
+3. Observe the cart badge.
+
+**Expected Result:**
+The cart badge is updated according to the remaining number of products.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-007: Verify empty shopping cart
+
+**Priority:** Medium
+
+**Steps:**
+1. Open the shopping cart without adding products.
+
+**Expected Result:**
+The shopping cart page is displayed without any products.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-008: Verify product name in the cart
+
+**Priority:** Medium
+
+**Preconditions:**
+- A product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Check the product name.
+
+**Expected Result:**
+The product name matches the selected product from the Products page.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-009: Verify product description in the cart
+
+**Priority:** Low
+
+**Preconditions:**
+- A product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Check the product description.
+
+**Expected Result:**
+The product description matches the selected product.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-010: Verify product price in the cart
+
+**Priority:** High
+
+**Preconditions:**
+- A product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Check the displayed product price.
+3. Compare it with the price on the Products page.
+
+**Expected Result:**
+The product price in the cart matches the original product price.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-011: Continue shopping navigation
+
+**Priority:** Medium
+
+**Steps:**
+1. Open the shopping cart.
+2. Click Continue Shopping.
+
+**Expected Result:**
+The application redirects the user to the Products page.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-012: Proceed to checkout
+
+**Priority:** High
+
+**Preconditions:**
+- At least one product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Click Checkout.
+
+**Expected Result:**
+The application redirects the user to the Checkout Information page.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-013: Verify cart state after page refresh
+
+**Priority:** Medium
+
+**Preconditions:**
+- At least one product is added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Refresh the browser page.
+3. Observe the cart contents.
+
+**Expected Result:**
+The application handles the cart state consistently with its intended behavior.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-014: Verify cart after logout and login
+
+**Priority:** Medium
+
+**Preconditions:**
+- A product is added to the cart.
+
+**Steps:**
+1. Log out of the application.
+2. Log in again using the same account.
+3. Open the shopping cart.
+
+**Expected Result:**
+The cart state is handled according to the application's intended session behavior.
+
+**Execution Status:** NOT EXECUTED
+
+---
+
+### TC-CART-015: Verify cart after removing all products
+
+**Priority:** High
+
+**Preconditions:**
+- Two or more products are added to the cart.
+
+**Steps:**
+1. Open the shopping cart.
+2. Remove the first product.
+3. Remove all remaining products.
+4. Observe the shopping cart.
+
+**Expected Result:**
+The shopping cart contains no products.
+
+**Execution Status:** NOT EXECUTED
+
+## 3. Test Execution Summary
+
+| Status | Count |
+|---|---:|
+| PASS | 0 |
+| FAIL | 0 |
+| NOT EXECUTED | 15 |
+| Total | 15 |
+
+**Note:** No execution results have been recorded for this module yet.
