@@ -1,107 +1,108 @@
-# SauceDemo — Manual QA Testing Portfolio
+# SauceDemo — Manual QA Portfolio
 
 ## Project Overview
 
-This project demonstrates practical Manual QA testing skills through testing the SauceDemo e-commerce web application.
+This repository contains a manual testing portfolio project for the SauceDemo web application.
 
-**Application:** https://www.saucedemo.com/
+The purpose of this project is to demonstrate practical knowledge of manual software testing, test documentation, test case design, test execution, and defect reporting.
 
-**Testing Type:** Manual Testing
+**Application under test:** https://www.saucedemo.com/
 
-**Role:** Junior Manual QA Engineer
-
-**Project Status:** In Progress
-
-## Project Objectives
-
-The main objectives of this project are:
-
-- Verify the functionality of the web application.
-- Identify potential defects.
-- Validate user authentication.
-- Test product catalog functionality.
-- Verify shopping cart operations.
-- Test the checkout process.
-- Prepare professional QA documentation.
+**Project status:** In Progress
 
 ## Testing Scope
 
-The following modules are included:
+The following functional areas are included in the testing scope:
 
-1. Login and Authentication
-2. Products Catalog
-3. Product Sorting
-4. Shopping Cart
-5. Checkout Process
-6. Logout
-7. Application State Reset
+- Login and authentication
+- Product listing and sorting
+- Shopping cart
+- Checkout process
 
-## Testing Types
+## Repository Structure
 
-- Functional Testing
-- UI Testing
-- Positive Testing
-- Negative Testing
-- Exploratory Testing
-- Regression Testing
-- Smoke Testing
+text
+SauceDemo-Manual-QA/
+│
+├── README.md
+│
+├── Test-Documentation/
+│   ├── Test-Plan.md
+│   ├── Test-Execution-Report.md
+│   └── Test-Summary-Report.md
+│
+├── Test-Cases/
+│   ├── Login-Test-Cases.md
+│   ├── Products-Test-Cases.md
+│   ├── Cart-Test-Cases.md
+│   └── Checkout-Test-Cases.md
+│
+└── Bug-Reports/
+    ├── Bug-Report-001.md
+    ├── Bug-Report-Template.md
+    └── Bug-Severity-Priority.md
 
-## Testing Techniques
-
-- Equivalence Partitioning
-- Boundary Value Analysis
-- Decision Table Testing
-- Error Guessing
-- Exploratory Testing
-
-## Test Documentation
-
-The project includes:
-
-- Test Plan
-- Test Cases
-- Test Checklists
-- Bug Reports
-- Test Execution Report
-- Test Summary Report
-
-## Tools
-
-- Google Chrome
-- Jira (Bug Tracking — documentation practice)
-- GitHub
-- Markdown
 
 ## Test Execution Summary
 
-Testing results will be documented separately for each application module.
+| Test Suite | Total | Passed | Failed | Not Executed |
+|---|---:|---:|---:|---:|
+| Login | 15 | 10 | 0 | 5 |
+| Products | 18 | 8 | 0 | 10 |
+| Shopping Cart | 15 | 0 | 0 | 15 |
+| Checkout | 18 | 0 | 0 | 18 |
+| **Total** | **66** | **18** | **0** | **48** |
 
-Only tests actually executed will receive a final Pass or Fail status. Tests that have not been executed will be marked as Not Executed.
+*Note: Results are based on reported manual checks. Testing is not yet complete.*
 
-## Defect Reporting
+## Testing Documentation
 
-Identified and suspected defects are documented with:
+### Test Planning and Reporting
 
-- Bug ID
-- Summary
-- Environment
-- Preconditions
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Priority
+- Test Plan
+- Test Execution Report
+- Test Summary Report
 
-Unverified observations are explicitly marked as requiring verification.
+### Test Cases
+
+- Login Test Cases
+- Products Test Cases
+- Shopping Cart Test Cases
+- Checkout Test Cases
+
+### Defect Documentation
+
+- Bug Report
+- Bug Report Template
+- Bug Severity and Priority Reference
+
+## Skills Demonstrated
+
+- Manual Testing
+- Functional Testing
+- UI Testing
+- Test Case Design
+- Positive and Negative Testing
+- Test Execution and Result Reporting
+- Bug Reporting
+- Severity and Priority Classification
+- Markdown Documentation
+- GitHub Repository Management
+
+## Tools and Technologies
+
+- Manual Testing
+- GitHub
+- Markdown
+- Web Browser
+- SauceDemo Demo Application
+
+## Project Notes
+
+This is a learning portfolio project. Test results are based on manual observations, and some test cases have not yet been executed.
+
+No claim of complete application coverage is made.
 
 ## Author
 
-Junior Manual QA Engineer
-
-GitHub Portfolio Project
-
-## Disclaimer
-
-This project is created for educational and portfolio purposes.
-
-The application is a publicly available demonstration e-commerce website.
+Junior Manual QA Engineer Portfolio Project
